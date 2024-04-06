@@ -165,7 +165,7 @@ int main() {
         printf("\n");
     }
 
-
+    //Test de la fonction somme vecteurs creux
     // Créer deux tableaux creux
     PTR a = nouveau_maillon(1, 2.5);
     a->suivant = nouveau_maillon(3, 1.0);
@@ -181,7 +181,6 @@ int main() {
     // Afficher le résultat
     while (resultat)
     {
-
         printf("%d %.2f", resultat->indice, resultat->valeur,"\t");
         printf("  ");
         resultat = resultat->suivant;
