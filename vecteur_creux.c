@@ -45,7 +45,8 @@ PTR vecteur_creux(float t[], int n) {
     }
     return tete;
 }
-
+//4. Ecrire une fonction PTR somme (PTR a, PTR b) qui reçoit deux vecteurs creux a et b et
+//retourne le vecteur creux qui représente leur somme 
 PTR somme(PTR a, PTR b)
 {
     PTR tete = NULL;
